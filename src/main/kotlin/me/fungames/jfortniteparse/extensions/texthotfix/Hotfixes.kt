@@ -61,7 +61,7 @@ object Hotfixes {
     }
 
     private fun refreshToken() : Boolean {
-        val resp = accountPublicService.grantToken("basic MzQ0NmNkNzI2OTRjNGE0NDg1ZDgxYjc3YWRiYjIxNDE6OTIwOWQ0YTVlMjVhNDU3ZmI5YjA3NDg5ZDMxM2I0MWE", "refresh_token", mapOf("refresh_token" to token), null).execute()
+        val resp = accountPublicService.grantToken("basic MzQ0NmNkNzI2OTRjNGE0NDg1ZDgxYjc3YWRiYjIxNDE6OTIwOWQ0YTVlMjVhNDU3ZmI5YjA3NDg5ZDMxM2I0MWE", "client_credentials", emptyMap(), null).execute()
         if (!resp.isSuccessful)
             return false
         this.token = resp.body()?.access_token ?: return false
