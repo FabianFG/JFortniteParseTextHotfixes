@@ -11,9 +11,8 @@ import retrofit2.http.*
 import java.util.concurrent.TimeUnit
 import kotlin.properties.Delegates
 
-
-fun Locres.applyHotfixes() {
-    Hotfixes.hotfixes.data.forEach { (namespace, data) -> data.forEach { (key, values) ->
+fun Locres.applyHotfixes(hotfixes: HotfixData) {
+    hotfixes.data.forEach { (namespace, data) -> data.forEach { (key, values) ->
         val text = values[language]
         if (text != null) {
             val nameSpaceD = texts.stringData[namespace] ?: mutableMapOf()
@@ -22,6 +21,7 @@ fun Locres.applyHotfixes() {
         }
     }}
 }
+fun Locres.applyHotfixes() = this.applyHotfixes(Hotfixes.hotfixes)
 
 object Hotfixes {
     private val retrofit = Retrofit.Builder()
