@@ -4,7 +4,6 @@
     <list default="true" id="37c5d8b0-0904-4f66-859e-de0e536db636" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/fungames/jfortniteparse/extensions/texthotfix/Hotfixes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/fungames/jfortniteparse/extensions/texthotfix/Hotfixes.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +147,7 @@
       <workItem from="1574525360167" duration="1363000" />
       <workItem from="1576410045702" duration="4356000" />
       <workItem from="1576680465039" duration="1603000" />
-      <workItem from="1582303927893" duration="2554000" />
+      <workItem from="1582303927893" duration="3188000" />
     </task>
     <task id="LOCAL-00001" summary="first release">
       <created>1573401825913</created>
@@ -171,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576681463641</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="using fortnite api now">
+      <created>1582311250451</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582311250451</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +200,8 @@
     <MESSAGE value="first release" />
     <MESSAGE value="updated jfortniteparse" />
     <MESSAGE value="added some shit" />
-    <option name="LAST_COMMIT_MESSAGE" value="added some shit" />
+    <MESSAGE value="using fortnite api now" />
+    <option name="LAST_COMMIT_MESSAGE" value="using fortnite api now" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
