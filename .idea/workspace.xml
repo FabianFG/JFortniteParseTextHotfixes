@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37c5d8b0-0904-4f66-859e-de0e536db636" name="Default Changelist" comment="updated libraries">
+    <list default="true" id="37c5d8b0-0904-4f66-859e-de0e536db636" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
@@ -153,7 +153,7 @@
       <workItem from="1576410045702" duration="4356000" />
       <workItem from="1576680465039" duration="1603000" />
       <workItem from="1582303927893" duration="4110000" />
-      <workItem from="1584042395637" duration="29000" />
+      <workItem from="1584042395637" duration="899000" />
     </task>
     <task id="LOCAL-00001" summary="first release">
       <created>1573401825913</created>
@@ -190,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582311854211</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updated libraries">
+      <created>1584042451243</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584042451243</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
