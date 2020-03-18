@@ -6,7 +6,7 @@ plugins {
 }
 
 group 'me.fungames'
-version '1.3.3'
+version '1.3.4'
 
 repositories {
     mavenCentral()
@@ -17,7 +17,7 @@ repositories {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
-    implementation 'me.fungames:JFortniteParse:2.3.7'
+    implementation 'me.fungames:JFortniteParse:2.4'
     implementation 'me.fungames:Fortnite-Api:1.5.2'
     implementation 'org.slf4j:slf4j-log4j12:1.7.30'
     implementation 'com.squareup.okhttp3:okhttp:4.2.2'
