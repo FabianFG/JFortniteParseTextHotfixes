@@ -17,7 +17,7 @@
     </execution>
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="5" />
+    <option name="totalTimeSeconds" value="109" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -36,11 +36,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="JFortniteParse-TextHotfixExtension" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="JFortniteParse-TextHotfixExtension" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -163,7 +158,8 @@
       <workItem from="1582303927893" duration="4110000" />
       <workItem from="1584042395637" duration="1396000" />
       <workItem from="1584442840357" duration="97000" />
-      <workItem from="1584553068901" duration="66000" />
+      <workItem from="1584553068901" duration="156000" />
+      <workItem from="1584649673540" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="first release">
       <created>1573401825913</created>
@@ -221,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584442897127</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="new jfortniteparse 2.4">
+      <created>1584553173485</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1584553173485</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +252,8 @@
     <MESSAGE value="updated libraries" />
     <MESSAGE value="updated libraries again" />
     <MESSAGE value="new jfortniteparse" />
-    <option name="LAST_COMMIT_MESSAGE" value="new jfortniteparse" />
+    <MESSAGE value="new jfortniteparse 2.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="new jfortniteparse 2.4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
