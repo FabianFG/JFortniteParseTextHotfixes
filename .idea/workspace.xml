@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="37c5d8b0-0904-4f66-859e-de0e536db636" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +16,7 @@
     </execution>
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="109" />
+    <option name="totalTimeSeconds" value="170" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -36,6 +35,11 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="JFortniteParse-TextHotfixExtension" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JFortniteParse-TextHotfixExtension" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -159,7 +163,8 @@
       <workItem from="1584042395637" duration="1396000" />
       <workItem from="1584442840357" duration="97000" />
       <workItem from="1584553068901" duration="156000" />
-      <workItem from="1584649673540" duration="9000" />
+      <workItem from="1584649673540" duration="637000" />
+      <workItem from="1584698995688" duration="64000" />
     </task>
     <task id="LOCAL-00001" summary="first release">
       <created>1573401825913</created>
@@ -224,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584553173485</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="new fortnite api">
+      <created>1584649707367</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1584649707367</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +265,8 @@
     <MESSAGE value="updated libraries again" />
     <MESSAGE value="new jfortniteparse" />
     <MESSAGE value="new jfortniteparse 2.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="new jfortniteparse 2.4" />
+    <MESSAGE value="new fortnite api" />
+    <option name="LAST_COMMIT_MESSAGE" value="new fortnite api" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

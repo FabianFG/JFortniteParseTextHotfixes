@@ -58,9 +58,7 @@ object Hotfixes {
         section.forEach {
             try {
                 val parsed = LocresTextReplacementParser.parseObject(it)
-                var namespace = parsed["Namespace"] as String
-                if (namespace == "")
-                    namespace = " "
+                val namespace = parsed["Namespace"] as String
                 val key = parsed["Key"] as String
                 val localizedStrings = parsed["LocalizedStrings"] as List<List<String>>
                 val nameSpaceM = result[namespace] ?: mutableMapOf()
