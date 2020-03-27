@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="37c5d8b0-0904-4f66-859e-de0e536db636" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/fungames/jfortniteparse/extensions/texthotfix/Hotfixes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/fungames/jfortniteparse/extensions/texthotfix/Hotfixes.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +18,7 @@
     </execution>
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="170" />
+    <option name="totalTimeSeconds" value="894" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -165,6 +167,8 @@
       <workItem from="1584553068901" duration="156000" />
       <workItem from="1584649673540" duration="637000" />
       <workItem from="1584698995688" duration="64000" />
+      <workItem from="1585079060258" duration="627000" />
+      <workItem from="1585331850820" duration="603000" />
     </task>
     <task id="LOCAL-00001" summary="first release">
       <created>1573401825913</created>
@@ -236,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584649707367</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="default is now &quot;&quot; not &quot; &quot;">
+      <created>1585079132441</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1585079132441</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +277,9 @@
     <MESSAGE value="new jfortniteparse" />
     <MESSAGE value="new jfortniteparse 2.4" />
     <MESSAGE value="new fortnite api" />
-    <option name="LAST_COMMIT_MESSAGE" value="new fortnite api" />
+    <MESSAGE value="default is now &quot;&quot; not &quot; &quot;" />
+    <MESSAGE value="if language does not exist but english does, english will be used as fallback" />
+    <option name="LAST_COMMIT_MESSAGE" value="if language does not exist but english does, english will be used as fallback" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

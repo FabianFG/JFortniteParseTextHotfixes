@@ -69,6 +69,11 @@ object Hotfixes {
                     val fnLang = FnLanguage.valueOfLanguageCode(lang)
                     values[fnLang] = text
                 }
+                val en = values[FnLanguage.EN]
+                FnLanguage.values().forEach {lang ->
+                    if (!values.containsKey(lang))
+                        en?.let { en -> values[lang] = en }
+                }
                 nameSpaceM[key] = values
                 result[namespace] = nameSpaceM
             } catch (e : Exception) {}
