@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37c5d8b0-0904-4f66-859e-de0e536db636" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/fungames/jfortniteparse/extensions/texthotfix/Hotfixes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/fungames/jfortniteparse/extensions/texthotfix/Hotfixes.kt" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +18,7 @@
     </execution>
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="894" />
+    <option name="totalTimeSeconds" value="1144" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -33,28 +33,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="JFortniteParse-TextHotfixExtension" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="JFortniteParse-TextHotfixExtension" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="JFortniteParse-TextHotfixExtension" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="JFortniteParse-TextHotfixExtension" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="publishing" type="c8890929:TasksNode$1" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -77,6 +56,13 @@
   </component>
   <component name="ProjectId" id="1TKrFm9NNd7O74H4MiaN3vvHfxS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -85,18 +71,6 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Gradle.JFortniteParse-TextHotfixExtension [bintrayUpload]">
     <configuration name="JFortniteParse-TextHotfixExtension [bintrayUpload]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -168,7 +142,8 @@
       <workItem from="1584649673540" duration="637000" />
       <workItem from="1584698995688" duration="64000" />
       <workItem from="1585079060258" duration="627000" />
-      <workItem from="1585331850820" duration="603000" />
+      <workItem from="1585331850820" duration="1539000" />
+      <workItem from="1586277707532" duration="78000" />
     </task>
     <task id="LOCAL-00001" summary="first release">
       <created>1573401825913</created>
@@ -247,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585079132441</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="if language does not exist but english does, english will be used as fallback">
+      <created>1585332462797</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1585332462797</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +262,12 @@
     <MESSAGE value="default is now &quot;&quot; not &quot; &quot;" />
     <MESSAGE value="if language does not exist but english does, english will be used as fallback" />
     <option name="LAST_COMMIT_MESSAGE" value="if language does not exist but english does, english will be used as fallback" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="528" height="100" key="javadoc.popup.new" timestamp="1586277765032">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="528" height="100" key="javadoc.popup.new/0.0.2560.1400/2560.360.1920.1040@0.0.2560.1400" timestamp="1586277765032" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
