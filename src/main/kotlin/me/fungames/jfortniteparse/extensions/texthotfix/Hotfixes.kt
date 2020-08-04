@@ -4,6 +4,7 @@ import me.fungames.fortnite.api.FortniteApi
 import me.fungames.fortnite.api.model.CloudStorageResponse
 import me.fungames.jfortniteparse.ue4.locres.FnLanguage
 import me.fungames.jfortniteparse.ue4.locres.Locres
+import org.ini4j.Config
 import org.ini4j.Ini
 
 @Suppress("EXPERIMENTAL_API_USAGE")
@@ -39,10 +40,9 @@ object Hotfixes {
     private fun getGameIni() : Ini {
         val file = getFileList().first { it.filename == "DefaultGame.ini" }
         val data = api.fortnitePublicService.downloadCloudstorageFile(file.uniqueFilename).execute().body()?.bytes() ?: throw IllegalStateException("Couldn't get defaultgame.ini")
-        val ini = Ini()
-        ini.config.isMultiSection = true
-        ini.load(data.inputStream())
-        return ini
+        Config.getGlobal().isMultiSection = true
+        val str = String(data).replace("\uFEFF", "")
+        return str.reader().use { Ini(it) }
     }
 
     private fun getFileList() : List<CloudStorageResponse> {
