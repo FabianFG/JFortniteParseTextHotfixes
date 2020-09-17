@@ -38,8 +38,14 @@ object Hotfixes {
     }
 
     private fun getGameIni() : Ini {
-        val file = getFileList().first { it.filename == "DefaultGame.ini" }
-        val data = api.fortnitePublicService.downloadCloudstorageFile(file.uniqueFilename).execute().body()?.bytes() ?: throw IllegalStateException("Couldn't get defaultgame.ini")
+        val file = getFileList()
+            .filter {
+                it.filename.startsWith("Ver-") &&
+                        it.filename.substringAfter("Ver-").substringBefore('_').toIntOrNull() != null &&
+                        it.filename.endsWith("_DefaultGame.ini")
+            }.maxBy { it.filename.substringAfter("Ver-").substringBefore('_').toInt() }!!
+        val resp = api.fortnitePublicService.downloadCloudstorageFile(file.uniqueFilename).execute()
+        val data = resp.body()?.bytes() ?: throw IllegalStateException("Couldn't get defaultgame.ini")
         Config.getGlobal().isMultiSection = true
         val str = String(data).replace("\uFEFF", "")
         return str.reader().use { Ini(it) }
