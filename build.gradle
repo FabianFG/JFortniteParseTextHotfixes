@@ -1,27 +1,24 @@
 plugins {
     id 'org.jetbrains.kotlin.jvm' version '1.4.0'
     id 'maven-publish'
-    id "com.jfrog.bintray" version "1.8.1"
     id 'org.jetbrains.dokka' version '0.10.0'
 }
 
 group 'me.fungames'
-version '1.5'
+version '1.5.1'
 
 repositories {
     mavenCentral()
-    maven {
-        url "https://dl.bintray.com/fungamesleaks/mavenRepo"
-    }
-    jcenter()
+    maven { url 'https://jitpack.io' }
+    google()
 }
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9'
-    implementation 'me.fungames:JFortniteParse:3.2.6'
-    implementation 'me.fungames:Fortnite-Api:1.7.1'
-    implementation 'me.fabianfg:IniSerializationParser:1.0'
+    implementation 'com.github.FabianFG:JFortniteParse:master-SNAPSHOT'
+    implementation 'com.github.FabianFG:Fortnite-Api:master-SNAPSHOT'
+    implementation 'com.github.FabianFG:IniSerializationParser:master-SNAPSHOT'
     implementation 'com.squareup.okhttp3:okhttp:4.2.2'
     implementation 'com.google.code.gson:gson:2.8.0'
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
@@ -38,26 +35,6 @@ task sourcesJar(type: Jar) {
 task javadocJar(type: Jar) {
     from javadoc
     classifier = 'javadoc'
-}
-
-bintray {
-    user = findProperty("bintray.user")
-    key = findProperty('bintray.key')
-    publications = ['maven']
-
-    pkg {
-        repo = 'mavenRepo'
-        name = 'JFortniteParseTextHotfixes'
-        userOrg = 'fungamesleaks'
-        licenses = ['Apache-2.0']
-        vcsUrl = 'https://github.com/FunGamesLeaks/JFortniteParseTextHotfixes.git'
-        version {
-            name = version
-            desc = version
-            released  = new Date()
-        }
-    }
-
 }
 
 
